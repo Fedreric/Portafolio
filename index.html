@@ -14,19 +14,19 @@
     <title>Portfolio - YoProgramo</title>
   </head>
   <body>
-    <header>
+    <header class="background">
       <img
+        class="img-background"
         src="Assets/img/background.jpg"
-        class="img-fluid"
         alt="background"
       />
-      <h1 class="text-center">Federico Luciano Ledesma</h1>
-      <h2 class="text-center">FullStack Developer</h2>
+      <h1 class="text-center background-title">Federico Luciano Ledesma</h1>
+      <h2 class="text-center background-title2">FullStack Developer</h2>
 
       <div class="text-center">
         <img
+          class="img-personal card-img-top"
           src="Assets/img/yo.png"
-          class="img-thumbnail"
           alt="Federico Luciano Ledesma"
         />
       </div>
@@ -43,8 +43,8 @@
       </nav>
     </div>
 
-    <section class="section-sobre-mi">
-      <div class="card" style="width: 18rem">
+    <section class="section-sobreMi mat-card">
+      <div class="card card-sobreMi">
         <img
           src="Assets/img/yo.png"
           class="card-img-top"
@@ -54,105 +54,65 @@
           <a href="#" class="btn btn-success">Descargar CV</a>
         </div>
       </div>
-      <h3>Sobre mi</h3>
-      <div class="card">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam
-          provident necessitatibus vitae animi laboriosam ut eius doloremque
-          rerum nihil cupiditate dolores, neque enim magni voluptatum autem quam
-          dolorum quasi, inventore reprehenderit, veritatis labore! Possimus
-          autem vero consequatur magnam illum.
+      <h3 class="text-sobreMi">Sobre mi</h3>
+          <p class="p-sobreMi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam
+            provident necessitatibus vitae animi laboriosam ut eius doloremque
+            rerum nihil cupiditate dolores, neque enim magni voluptatum autem
+            quam dolorum quasi, inventore reprehenderit, veritatis labore!
+            Possimus autem vero consequatur magnam illum.
+          </p>
+    </section>
+
+    <h3 class="text-stack">Stack de Desarrollo</h3>
+    <section class="mat-card section">
+      <div class="section-stack">
+        <div class="card card-satck item0" >
+          <img src="Assets/img/logohtml.png" class="card-img-top" alt="html" title="HTML" />
+        </div>
+        <div class="card card-satck item1">
+          <img src="Assets/img/logocss.png" class="card-img-top" alt="..." title="CSS"/>
+        </div>
+        <div class="card card-satck item2">
+          <img
+            src="Assets/img/typescriptlogo.png"
+            class="card-img-top"
+            alt="..." title="Typescript"
+          />
+        </div>
+        <div class="card card-satck item3">
+          <img
+            src="Assets/img/Bootstrap_logo.png"
+            class="card-img-top"
+            alt="..." title="Bootstrap"
+          />
+        </div>
+        <div class="card card-satck item4">
+          <img src="Assets/img/logoangular.png" class="card-img-top" alt="..." title="Angular" />
+        </div>
+        <div class="card card-satck item5">
+          <img
+            src="Assets/img/Apache Tomcat_0.png"
+            class="card-img-top"
+            alt="..." title="Tomcat"
+          />
+        </div>
+        <div class="card card-satck item6">
+          <img src="Assets/img/mysqllogo.png" class="card-img-top" alt="..." title="MySql"/>
+        </div>
+        <div class="card card-satck item7">
+          <img
+            src="Assets/img/spring-boot-logo.png"
+            class="card-img-top"
+            alt="..." title="Spring boot"
+          />
         </div>
       </div>
     </section>
 
-    <section class="section-stack d-inline-flex">
-      <h3>Herramientas de desarrollo</h3>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/logohtml.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">HTML</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/logocss.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">CSS</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/typescriptlogo.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">Typescript</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/Bootstrap_logo.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">Bootstrap</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/logoangular.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">Angular</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/Apache Tomcat_0.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">Apache Tomcat</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/mysqllogo.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">MySQL</p>
-        </div>
-      </div>
-      <div class="card" style="width: 9rem">
-        <img
-          src="Assets/img/spring-boot-logo.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">Spring Boot</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-trabajos d-inline-flex">
+    <section class="section-trabajos d-inline-flex mat-card">
       <h3>Trabajos recientes</h3>
-      <div class="card" style="width: 18rem">
+      <div class="card">
         <img
           src="Assets/img/paginaej1.jpg"
           class="card-img-top"
@@ -162,7 +122,7 @@
           <a href="#" class="btn btn-light">Ver mas</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card">
         <img
           src="Assets/img/paginaej1.jpg"
           class="card-img-top"
@@ -172,7 +132,7 @@
           <a href="#" class="btn btn-light">Ver mas</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card">
         <img
           src="Assets/img/paginaej1.jpg"
           class="card-img-top"
@@ -184,7 +144,7 @@
       </div>
     </section>
 
-    <section class="section-contacto">
+    <section class="section-contacto mat-card">
       <h3>Contactame</h3>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -310,9 +270,7 @@
           />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Email</label
-          >
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
           <input
             type="email"
             class="form-control"
@@ -335,8 +293,8 @@
     </section>
 
     <footer class="d-inline-flex">
-        <p>Ledesma Federico Lucioano, Developer.</p>  
-        <a href="#"
+      <p>Ledesma Federico Lucioano, Developer.</p>
+      <a href="#"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-brand-facebook"
