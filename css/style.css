@@ -25,9 +25,6 @@ body{
     height: 100%;
     background-size: cover;
 }
-.section-trabajos{
-    width: auto;
-}
 .img-personal{
     position:absolute;
     width:30rem;
@@ -70,9 +67,10 @@ body{
     font-size: 1.9rem;
 }
 
-.text-stack{
+.h3-text{
 text-align: center;
 font-size: 5.5rem;
+margin-bottom: 2.5rem;
 }
 .mat-card.section{
     border: none;
@@ -123,4 +121,33 @@ font-size: 5.5rem;
 .item7{
     grid-column: 4 / 4;
     grid-row: 2;
+}
+
+.section-trabajos{
+    width: 99%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(1rem, auto);
+    justify-content: center;
+    border: none;
+}
+
+card.card-item0{
+    grid-column: 1 / 1;
+    grid-row: 1;
+}
+card-item1{
+    grid-column: 2 / 2;
+    grid-row: 1 ;
+}
+card-item2{
+    grid-column: 3 /3;
+    grid-row: 1;
+}
+.card.card-trabajos{
+    width: 50rem;
+    border: none;
+    justify-content: center;
 }
